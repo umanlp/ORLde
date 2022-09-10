@@ -1,33 +1,70 @@
-# ORLde
-BERT model for German Opinion Role Labelling in Parliamentary Debates
+<h1 align="center">
+<span>German Opinion Role Labelling (ORLde)</span>
+</h1>
+
+------------------------
+## Repository Description
+
+This repository contains the code for our 
+BERT model for German Opinion Role Labelling in Parliamentary Debates.
+
+The code can be used to replicate our results from the paper:
+
+<a href="https://aclanthology.org/2022.konvens-1.13.pdf">Improved Opinion Role Labelling in Parliamentary Debates </a>
 
 
+```
+@inproceedings{bamberg-etal-2022-improved,
+    title = "Improved Opinion Role Labelling in Parliamentary Debates",
+    author = "Bamberg, Laura  and
+      Rehbein, Ines  and
+      Ponzetto, Simone",
+    booktitle = "Proceedings of the 18th Conference on Natural Language Processing (KONVENS 2022)",
+    month = "12--15 " # sep,
+    year = "2022",
+    address = "Potsdam, Germany",
+    publisher = "KONVENS 2022 Organizers",
+    url = "https://aclanthology.org/2022.konvens-1.13",
+    pages = "110--120",
+}
+```
+
+
+### Running the model:
 
 Get predictions for the test data, using the trained model from:
 
-# run 1
+#### run 1
+```typescript
 python bert_orl.py orl-1-predict-bert.conf
+```
 
-# run 2
+#### run 2
+```typescript
 python bert_orl.py orl-2-predict-bert.conf
+```
 
-# run 3
+#### run 3
+```typescript
 python bert_orl.py orl-3-predict-bert.conf
+```
 
 
-Evaluate the predictions:
+You can evaluate the predictions by running:
 
-for model 1
+```typescript
 python eval_predictions.py logfile_ORL_BERT_run_1.log 
 
-for model 2
 python eval_predictions.py logfile_ORL_BERT_run_2.log 
 
-for model 3
 python eval_predictions.py logfile_ORL_BERT_run_3.log 
+```
 
-
+### Training a model:
 
 Train a new model on the training data and evaluate on test, using this model:
 
+```typescript
 python bert_orl.py 
+```
+
