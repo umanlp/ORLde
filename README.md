@@ -17,8 +17,8 @@ The code can be used to replicate our results from the paper:
 @inproceedings{bamberg-etal-2022-improved,
     title = "Improved Opinion Role Labelling in Parliamentary Debates",
     author = "Bamberg, Laura  and
-      Rehbein, Ines  and
-      Ponzetto, Simone",
+    Rehbein, Ines  and
+    Ponzetto, Simone",
     booktitle = "Proceedings of the 18th Conference on Natural Language Processing (KONVENS 2022)",
     month = "12--15 " # sep,
     year = "2022",
@@ -60,9 +60,9 @@ python eval_predictions.py logfile_ORL_BERT_run_2.log
 python eval_predictions.py logfile_ORL_BERT_run_3.log 
 ```
 
-### Training a model:
+### Training a new model:
 
-Train a new model on the training data and evaluate on test, using this model:
+You can train a new model on the training data and evaluate on the test set, using this script:
 
 ```typescript
 python bert_orl.py 
