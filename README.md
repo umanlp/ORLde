@@ -107,4 +107,6 @@ You can train a new model on the training data and evaluate on the test set, usi
 ```typescript
 python bert_orl.py 
 ```
+If you want to change the model parameters or input/output path, you need to change the config file (
+orl-train-bert.conf)
 
