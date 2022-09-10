@@ -51,6 +51,24 @@ The code can be used to replicate our results from the paper:
         - steps16.test.json 
         
 
+The data has been kindly provided by the organisers of the IGGSA-STEPS 2016 Shared Task on Source and Target Extraction from Political Speeches
+<a href="https://ids-pub.bsz-bw.de/files/5508/Ruppenhofer_Struss_Wiegand_Overview_of_the_IGGSA_2016.pdf">(pdf)</a>
+<a href="https://iggsasharedtask2016.github.io/welcome.html">Shared Task website</a>
+
+```
+@incollection{RuppenhoferStrussWiegand2016,
+  author    = {Josef Ruppenhofer and Julia Maria Stru{\"s} and Michael Wiegand},
+  title     = {Overview of the IGGSA 2016 Shared Task on Source and Target Extraction from Political Speeches},
+  series    = {IGGSA Shared Task on Source and Target Extraction from Political Speeches},
+  editor    = {Josef Ruppenhofer and Julia Maria Stru{\"s} and Michael Wiegand},
+  publisher = {Ruhr-Universit{\"a}t Bochum},
+  address   = {Bochum},
+  issn      = {2190-0949},
+  url       = {https://nbn-resolving.org/urn:nbn:de:bsz:mh39-55086},
+  pages     = {1 -- 9},
+  year      = {2016}, 
+}
+```
 
 
 ### Running the model:
