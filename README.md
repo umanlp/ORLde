@@ -70,22 +70,23 @@ The data has been kindly provided by the organisers of the IGGSA-STEPS 2016 Shar
 ```
 <a href="https://iggsasharedtask2016.github.io/welcome.html">Shared Task website</a>
 
+------------------------
 
-### Running the model:
+### Running the model
 
 Get predictions for the test data, using the trained model from:
 
-#### run 1
+##### run 1:
 ```typescript
 python bert_orl.py orl-1-predict-bert.conf
 ```
 
-#### run 2
+##### run 2:
 ```typescript
 python bert_orl.py orl-2-predict-bert.conf
 ```
 
-#### run 3
+##### run 3:
 ```typescript
 python bert_orl.py orl-3-predict-bert.conf
 ```
@@ -101,7 +102,7 @@ python eval_predictions.py logfile_ORL_BERT_run_2.log
 python eval_predictions.py logfile_ORL_BERT_run_3.log 
 ```
 
-### Training a new model:
+### Training a new model
 
 You can train a new model on the training data and evaluate on the test set, using this script:
 
