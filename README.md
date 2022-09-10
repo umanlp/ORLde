@@ -31,8 +31,7 @@ The code can be used to replicate our results from the paper:
 
 ### Content:
 
-- **code**
-    - This folder contains the following files:
+- **code** 
       - models/ORL-1 (the 3 ORL single-task models)
       - bert_orl.py
       - eval_predictions.py
@@ -44,8 +43,7 @@ The code can be used to replicate our results from the paper:
       - orl-train-bert.conf     (config file for training)
 
 - **data**
-    - ORLde
-        - This folder contains the data sets from the IGGSA-STEPS 2016 shared task, converted to json format:
+    - ORLde (data sets from the IGGSA-STEPS 2016 shared task, converted to json format)
         - shata14.train.json
         - shata14.val.json
         - steps16.test.json 
