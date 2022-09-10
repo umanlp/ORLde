@@ -53,7 +53,6 @@ The code can be used to replicate our results from the paper:
 
 The data has been kindly provided by the organisers of the IGGSA-STEPS 2016 Shared Task on Source and Target Extraction from Political Speeches
 <a href="https://ids-pub.bsz-bw.de/files/5508/Ruppenhofer_Struss_Wiegand_Overview_of_the_IGGSA_2016.pdf">(pdf)</a>
-<a href="https://iggsasharedtask2016.github.io/welcome.html">Shared Task website</a>
 
 ```
 @incollection{RuppenhoferStrussWiegand2016,
@@ -69,6 +68,7 @@ The data has been kindly provided by the organisers of the IGGSA-STEPS 2016 Shar
   year      = {2016}, 
 }
 ```
+<a href="https://iggsasharedtask2016.github.io/welcome.html">Shared Task website</a>
 
 
 ### Running the model:
